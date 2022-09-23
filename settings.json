@@ -1,0 +1,123 @@
+{
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.rulers": [100],
+  "workbench.panel.defaultLocation": "bottom",
+  // "files.autoSave": "afterDelay",
+  "python.venvPath": "C:\\Users\\TheeWhoGet\\Dev\\vrtenv",
+  "python.pipenvPath": "C:\\Users\\TheeWhoGet\\Dev\\vrtenv",
+  "git.autofetch": true,
+  "terminal.integrated.rendererType": "dom",
+  "vim.useSystemClipboard": true,
+  "editor.lineNumbers": "on",
+  "[django-html]": {},
+  "git.enableSmartCommit": true,
+  "[javascript]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 8,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "sync.gist": "fb85291bcf2fba4b1835a09a471eaab4",
+  "sync.autoUpload": true,
+  "python.linting.flake8Args": ["--max-line-length=120"],
+  "prettier.singleQuote": true,
+  "prettier.semi": false, // for ts props
+  "prettier.printWidth": 100,
+  "liveshare.presence": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/env/*/**": true
+  },
+  "editor.minimap.scale": 1,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "100"],
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "scm.alwaysShowRepositories": true,
+  "python.pythonPath": "~/.virtualenvs/bellmetric/bin/python",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.useLanguageServer": true,
+  "editor.formatOnSave": true,
+
+  // vimrc
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    }
+  ],
+  "liveshare.authenticationProvider": "GitHub",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "editor.tabSize": 8,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "python.defaultInterpreterPath": "~/.virtualenvs/bellmetric/bin/python",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  // git
+  "git.allowNoVerifyCommit": true,
+  "git.confirmNoVerifyCommit": false,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false,
+    "python": true,
+    "go": false
+  },
+  "editor.guides.indentation": true,
+  "git.enableCommitSigning": true
+}
